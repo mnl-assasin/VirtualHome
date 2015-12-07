@@ -1,0 +1,22 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/leftContainer"
+        android:layout_width="@dimen/left_panel"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/left_panel_margin"
+        android:background="#f0f"
+        android:orientation="vertical" />
+
+    <ImageView
+        android:id="@+id/leftStrip"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/leftContainer"
+        android:background="#0efdac" />
+</RelativeLayout>
